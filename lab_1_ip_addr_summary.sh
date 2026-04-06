@@ -156,7 +156,7 @@ net_table() {
 
 # --- Usage Examples ---
 # TODO:: Write a standard entry point with proper idioms for this file
-# net_table                 # Normal usage
+net_table                 # Normal usage
 net_table all             # Include loopbacks
-# net_table bridge          # Show only bridges
-# net_table all ethernet    # Show all and filter ethernet
+net_table bridge          # Show only bridges
+net_table all ethernet    # Show all and filter ethernet
